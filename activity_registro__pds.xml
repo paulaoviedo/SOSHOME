@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro_PDS">
+
+
+    <Spinner
+        android:id="@+id/profecion"
+        android:layout_width="275dp"
+        android:layout_height="48dp"
+        android:layout_margin="15dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="405dp">
+
+
+    </Spinner>
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="276dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Apellido"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="277dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Fecha de expedicion"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="274dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="278dp"
+        android:layout_height="50dp"
+        android:ems="10"
+
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrate Como Cliente"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:text="Registrate"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="278dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="N cedula"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
